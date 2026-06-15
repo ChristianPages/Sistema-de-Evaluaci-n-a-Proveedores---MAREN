@@ -24,9 +24,8 @@ $id_url = isset($_GET['id']) ? intval($_GET['id']) : 0;
 $sql = "SELECT e.*, u.empresa_nombre, u.nombre_usuario as correo_registro 
         FROM evaluaciones e 
         INNER JOIN usuarios u ON e.usuario_id = u.id 
-        WHERE e.id = $id_url OR e.usuario_id = $id_url 
+        WHERE e.usuario_id = $id_url 
         ORDER BY e.id DESC LIMIT 1";
-
 $res = $conn->query($sql);
 $data = $res->fetch_assoc();
 
