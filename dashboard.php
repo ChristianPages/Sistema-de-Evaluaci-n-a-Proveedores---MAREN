@@ -222,7 +222,7 @@ if (!$resultado) {
                             <div class="badge bg-success rounded-pill me-3 px-3">ALTO</div>
                             <div>
                                 <span class="d-block fw-bold text-success">100% - 80%</span>
-                                <small class="text-muted" style="font-size: 0.75rem;">Nivel Alto. Proveedor Aprovado.</small>
+                                <small class="text-muted" style="font-size: 0.75rem;">Nivel Alto. Proveedor Aprobado.</small>
                             </div>
                         </div>
                     </div>
