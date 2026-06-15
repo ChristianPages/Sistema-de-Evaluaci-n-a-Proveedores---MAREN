@@ -163,7 +163,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </button>
         
         <div class="text-center border-top pt-4">
-            <p class="mb-0 text-muted small">¿Nuevo en Energy Drilling?</p>
+            <p class="mb-0 text-muted small">¿Nuevo en Maren Energy?</p>
             <a href="registro_proveedor.php" class="register-link small">
                 Regístrate como Nuevo Proveedor
             </a>
